@@ -1,20 +1,20 @@
-# Quiz-Weather-Web-App
 # Quiz & Weather Web App
 
-This is a simple, attractive single-page web application that allows users to:
-- **Check the current weather** for any city (demo data for popular cities).
+A simple, visually appealing web application that allows users to:
+- **Check the current weather** for any city (demo data for London, Paris, New York, Tokyo).
 - **Take a fun interactive quiz** with instant feedback and score tracking.
 
 ## ✨ Features
 
 - **Current Weather**
-  - Enter a city name and see demo weather data for London, Paris, New York, or Tokyo.
-  - The background and weather card color change based on the weather type.
+  - Enter a city name and see demo weather data.
+  - Background and weather card color change based on weather type.
 
 - **Interactive Quiz**
   - Five basic multiple-choice questions.
   - Instant feedback on answers.
   - Score tracker.
+  - Fun appreciation animation (falling confetti) and applause sound when you finish the quiz.
 
 - **Modern, Responsive UI**
   - Soft gradients and card effects for a visually appealing experience.
@@ -27,8 +27,8 @@ This is a simple, attractive single-page web application that allows users to:
     - `index.html`
     - `style.css`
     - `script.js`
-3. (Optional) Place your own background images if you want to customize further.
-4. **Open `index.html` in your browser** to use the app.
+    - (Optional) Any background images you want to use.
+3. **Open `index.html` in your browser** to use the app.
 
 ## 📁 File Structure
 
@@ -43,7 +43,10 @@ script.js       # Weather logic and quiz logic
 - To add more quiz questions, edit the `quizQuestions` array in `script.js`.
 - To support more cities or real weather data, update the `fetchWeatherDemo` function in `script.js`.
 
-## 🖼️ Preview
+---
+
+
+## preview
 
 <img width="1896" height="875" alt="image" src="https://github.com/user-attachments/assets/e62af05c-8750-45aa-8877-27b9002aaac9" />
 
